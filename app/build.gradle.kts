@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.futour_app"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.futour_app"
