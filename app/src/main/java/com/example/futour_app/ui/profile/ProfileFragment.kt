@@ -27,7 +27,7 @@ class ProfileFragment : Fragment() {
         _binding = FragmentProfileBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textProfile
+        val textView: TextView = binding.namaProfil
         profileViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }

@@ -13,10 +13,10 @@
         android:theme="@style/Theme.FuTour_App"
         tools:targetApi="31">
         <activity
-            android:name=".ResultActivity"
+            android:name=".RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.ResultActivity"
+            android:name=".ResultActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
